@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: normal;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  min-height: 100%;
+  background-color: #F5F5F5;
+}
+
+form {
+  margin: 0;
+}
+
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+ul > li {
+  display: block;
+  padding: 0;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+a,
+button {
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+a:focus,
+button:focus {
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+  cursor: text;
+}
+textarea:focus {
+  outline: none;
+}
+
+input {
+  display: inline-block;
+  outline: 0;
+  cursor: text;
+}
+
+header{
+	height: 120px;
+}
+
+.name{
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.content {
+	
+	padding-left: 30px;
+ 	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	width: 100%;
+}
+
+.about_studio{
+	margin-top: 30px;
+	height: 400px;
+	display: inline-flex;
+}
+
+.logo_studio{
+	margin: 50px auto;
+	margin-left: 30px;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.logo_studio_img{
+
+}
+
+.about_studio_main{
+	margin: 50px auto;
+	display: table;
+	max-width: 400px;
+	text-align: center;
+}
+.about_studio_main h2{
+	display:table-cell!important;
+	vertical-align: middle;
+	font-size: 32pt;
+}
+.about_game{
+	margin-top: 30px;
+	background-color: #FFF;
+}
+
+.logo_game{
+	padding-top: 20px;
+}
+
+.logo_game_title{
+	text-align: center;
+}
