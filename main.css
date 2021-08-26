@@ -6,6 +6,7 @@ html {
   height: 100%;
   font-family: "Segoe UI", sans-serif;
   font-weight: normal;
+  color: #464646;
 }
 
 body {
@@ -95,8 +96,7 @@ header{
 
 .name{
 	padding-top: 30px;
-	padding-left: 30px;
-	text-align: left;
+	text-align: center;
 }
 
 .content {
@@ -138,13 +138,32 @@ header{
 }
 .about_game{
 	margin-top: 30px;
+	height: 100%;
+	display: inline-flex;
 	background-color: #FFF;
 }
 
-.logo_game{
-	padding-top: 20px;
+.about_game_main{
+	max-width: 400px;
+	margin: 50px 100px 50px 100px;
+	display: table;
+	font-size: 16pt;
+}
+.about_game_inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+}
+.about_game_main p{
+	margin-top: 30px;
+}
+.about_game_title{
+	text-align: center;
 }
 
-.logo_game_title{
+.logo_game{
+	margin: 50px auto;
 	text-align: center;
+	padding-top: 30px;
 }
